@@ -1,0 +1,10 @@
+import easygui as easy
+
+msg = "please enter your first name:"
+msgg = "WHATS YOUR LAST NAME!!! TELL ME!!! >:( "
+FirstName = easy.enterbox(msg)
+LastName = easy.enterbox(msgg)
+
+lol = (":3")
+greeting = (f"Hello {FirstName} {LastName}!")
+easy.msgbox( lol, greeting, "HELP ME! IM BLEEDING OUT!!")
